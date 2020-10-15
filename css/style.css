@@ -1,0 +1,442 @@
+body {
+    font-family: Lato,Arial,sans-serif;
+    font-size: 14px;
+}
+section
+.carousel-item {
+    height: 90vh;
+    background-size: 100% 100%;
+}
+	/*===== navbar part====== */
+#navbar {
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    z-index: 99;
+    padding-top: 46px;
+}
+#navbar {
+    padding-top: 0px;
+}
+#navbar a {
+    font-size: 16px;
+    color: #000;
+}
+img {
+    height: 50px;
+}
+#navbar h1 {
+    font-size: 30px;
+    text-shadow: 2px 2px 5px red;
+    font-family: Arial Black;
+}
+.navbar ul li {
+    font-size: 12px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.navbar-dark .navbar-nav .nav-item active {
+    color: green!important;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white !important;
+}
+	/*===== homepage part====== */
+.content-text {
+    background-color: #001788;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 6px;
+	position: fixed;
+    width: 100%;
+    overflow: hidden;
+    z-index: 99;
+}
+#homepage {
+	background-image: url("../image/home.jpg");
+	background-size: 100% 100%;
+	height: 600px; 
+	width: 100%;
+	
+}
+#homepage h1 {
+    text-transform: capitalize;
+    margin: 0 0 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    line-height: 1.21;
+    font-size: 2.441em;
+    color: black;
+}
+
+#homepage p {
+	font-size: 1.25rem;
+	font-weight: 300 !important;
+	color: #373636;
+	text-transform: capitalize;
+	font-family: 'Montserrat', sans-serif;
+}
+/*===== about part====== */
+#about {
+    margin-top: -60px;
+}
+#about i {
+    font-size: 40px;
+    color: #27207b;
+}
+#about h5 {
+    font-size: 1.25em;
+}
+#about p {
+    color: #666;
+}
+	/*===== services part====== */
+#services {
+    padding-top: 90px;
+}
+#services h1 {
+    text-transform: capitalize;
+    margin: 0 0 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    line-height: 1.21;
+    color: initial;
+    font-size: 2.441em;
+}
+#services p {
+    font-size: 1.25rem;
+	font-weight: 300;
+	color: #666;
+	text-transform: capitalize;
+	font-family: 'Montserrat', sans-serif;
+}
+#services i {
+    color: #ff006c;
+}
+#services ul {
+    font-weight: 300 !important;
+    font-family: 'Montserrat', sans-serif;
+    color: #666;
+}
+	/*===== pages part====== */
+#Pages {
+    background-color: #e6e6e640;
+    margin-top: 100px;
+    padding-top: 45px;
+}
+.pagetext h1 {
+    text-transform: capitalize;
+    margin: 0 0 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    line-height: 1.21;
+    color: initial;
+    font-size: 2.441em;
+}
+.pagetext p {
+    font-size: 1.25rem;
+	font-weight: 300;
+	color: #666;
+	text-transform: capitalize;
+	font-family: 'Montserrat', sans-serif;
+}
+.col-sm-6 h1 i{
+	color: #000;
+	font-size: 35px;
+}
+#Pages p {
+    font-weight: 300 !important;
+    font-family: 'Montserrat', sans-serif;
+    color: #666;
+    text-transform: capitalize;
+}
+	/*===== project part====== */
+#project {
+    background-image: url("../image/office.jpg");
+    background-size: 100% 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	padding-bottom:100px;
+    padding-top: 45px;
+}
+#project h2 {
+    text-transform: capitalize;
+    margin: 0 0 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    line-height: 1.21;
+    color: initial;
+    font-size: 2.441em;
+}
+#project p {
+    font-size: 1.25rem;
+	font-weight: 300 !important;
+	text-transform: capitalize;
+	font-family: 'Montserrat', sans-serif;
+}
+.d-flex.align-items-center.border.rounded {
+    color: white;
+    font-size: 16px;
+}
+.fab.fa-windows.icon-sm.mr-3 {
+    font-size: 22px;
+}
+.fab.fa-apple.icon-sm.mr-3 {
+    font-size: 22px;
+}
+.fab.fa-google-play.icon-sm.mr-3 {
+    font-size: 22px;
+}
+.media-body h5 {
+}
+.content h6 {
+    margin-top: 100px;
+    border: 1px solid;
+    border-radius: 5px;
+    color: white;
+}
+	/*===== blog part====== */
+#blog {
+	padding-top: 45px;
+}
+#blog h1 {
+    text-transform: capitalize;
+    margin: 0 0 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    line-height: 1.21;
+    color: initial;
+    font-size: 2.441em;
+}
+#blog p {
+    font-weight: 300 !important;
+    font-family: 'Montserrat', sans-serif;
+    color: #666;
+    text-transform: capitalize;
+    font-size: 1.25rem;
+}
+.Portfolio-wrap {
+  width: 100%;
+}
+.portfolio-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(88, 113, 109, 0.6);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+.Portfolio-wrap:hover .portfolio-info {
+  height: 100%;
+}
+.portfolio-info h4 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.blogtext h1 {
+    font-size: 32px;
+}
+	/*===== upper part====== */
+.jumbotron {
+background: #358CCE;
+color: #FFF;
+border-radius: 0px;
+}
+.jumbotron-sm { 
+	padding-top: 24px;
+	padding-bottom: 24px; }
+.jumbotron small {
+color: #FFF;
+}
+.h1 small {
+font-size: 24px;
+}
+
+.col-md-8 {
+    background-color: #DDD;
+    border-radius: 5px;
+}
+.col-md-6 {
+}
+	/*===== client part====== */
+.clienttext h1 {
+	text-transform: capitalize;
+    margin: 0 0 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    line-height: 1.21;
+    color: initial;
+    font-size: 2.441em;
+}
+.clienttext p {
+	font-size: 1.25rem;
+	font-weight: 300;
+	text-transform: capitalize;
+	font-family: 'Montserrat', sans-serif;
+}
+.card-img-top {
+    height: 358px;
+    width: 100%;
+	border-radius: 2%;
+}
+.col-sm-4 p {
+	font-weight: 300 !important;
+	font-family: 'Montserrat', sans-serif;
+}
+.mb-0 {
+    font-size: 14px;
+}
+.client-ratting {
+    font-size: 9px;
+}
+.font-weight-bold {
+    font-size: 16px;
+}
+	/*===== team part====== */
+#team {
+    margin-top: 100px;
+    background-color: #eee;
+    padding-bottom: 30px;
+}
+.teamtext h1 {
+    text-transform: capitalize;
+    margin: 0 0 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    line-height: 1.21;
+    color: initial;
+    font-size: 2.441em;
+}
+.teamtext p {
+	font-size: 1.25rem;
+	font-weight: 300 !important;
+	color: #666;
+	text-transform: capitalize;
+	font-family: 'Montserrat', sans-serif;
+}
+#team p i {
+    float: left;
+    list-style: none;
+    font-size: 16px;
+    height: 30px;
+    width: 30px;
+    border: 1px solid;
+    text-align: center;
+    line-height: 28px;
+    margin-right: 16px;
+}
+#team p {
+    font-size: 16px;
+}
+#team h5 {
+    font-size: 24px;
+}
+	/*===== agency part====== */
+#agency .btn {
+    float: right;
+    margin-top: -68px;
+}
+#agencyt h1 {
+    text-transform: capitalize;
+    margin: 0 0 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    line-height: 1.21;
+    color: initial;
+    font-size: 2.441em;
+}
+#agency p {
+	font-size: 1.25rem;
+	font-weight: 300 !important;
+	color: #666;
+	text-transform: capitalize;
+	font-family: 'Montserrat', sans-serif;
+}
+.col-2 {
+    width: 20%;
+    float: left;
+}
+	/*===== contact part====== */
+#contact {
+    padding-top: 60px;
+}
+#contact {
+    background-color: #e6e6e640;
+    margin-top: 25px;
+}
+.conacttext h1 {
+	text-transform: capitalize;
+    margin: 0 0 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    line-height: 1.21;
+    color: initial;
+    font-size: 2.441em;
+}
+.conacttext p {
+	font-size: 1.25rem;
+	font-weight: 300;
+	text-transform: capitalize;
+	font-family: 'Montserrat', sans-serif;
+}
+#contact .row {
+    padding-top: 16px;
+}
+	/*===== footer part====== */
+#text {
+	background-image: url("../image/office.jpg");
+	background-size: 100% 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	margin-top: 40px;
+}
+#text .row {
+	color: white;
+
+}
+#text .col-sm-4 {
+
+}
+#text .content h5 {
+	font-size: 18px;
+	margin-left: 27px;
+}
+#text .col-sm-2 p {
+	margin-left: 27px;
+	font-size: 16px;
+}
+#text .col-sm-4 p {
+	margin-left: 27px;
+	font-size: 16px;
+}
+	/*=====top to button====== */
+#upper {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    background-color: green;
+    height: 39px;
+    width: 40px;
+    text-align: center;
+    padding-top: 10px;
+    display: none;
+    border-radius: 50px;
+}
+#upper i {
+    color: wheat;
+    font-size: 20px;
+}
