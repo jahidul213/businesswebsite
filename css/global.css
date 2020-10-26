@@ -1,0 +1,12 @@
+
+
+
+/*======= GLOBAL CSS =========*/
+a:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+.bg-white {
+    background-color:  white !important;
+}

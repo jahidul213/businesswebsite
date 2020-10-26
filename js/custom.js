@@ -1,22 +1,22 @@
-  // wow js
+ /* ==== Menubar Active Start ===== */
+  $('#main-menu').on('click', 'li',function(){
+    $('#main-menu li.active').removeClass('active');
+    $(this).addClass('active');
+  });
   
-  wow = new WOW(
-      {
-        animateClass: 'animated',
-        offset:       100,
-        callback:     function(box) {
-          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
-        }
-      }
-    );
-    wow.init();
-    document.getElementById('moar').onclick = function() {
-      var section = document.createElement('section');
-      section.className = 'section--purple wow fadeInDown';
-      this.parentNode.insertBefore(section, this);
-    };
-	
-	  /* ==== top to button ===== */
+  /* ==== Menubar Start ===== */
+  $('#mobile-icon').click(function(){
+    $('#main-menu ul').slideToggle(1000);
+  });
+  $(window).resize(function(){
+    if($(window).width() > 576){
+      $('#main-menu ul').show();
+    }else{
+      $('#main-menu ul').hide();
+    }
+  });
+  
+  /* ==== top to button ===== */
 
 $(document).ready(function(){
 
@@ -46,7 +46,9 @@ $('html').animate({scrollTop: 0},2000);
 
 
 });
-		/* ====smooth scrolling===== */
+
+			/* ==== smooth scrolling ===== */
+
 $(document).ready(function(){
 	  // Add smooth scrolling to all links
 	  $("a").on('click', function(event) {
@@ -71,3 +73,38 @@ $(document).ready(function(){
 		} // End if
 	  });
 	});
+		
+	/* ==== counterUp ===== */
+	
+	$('.counter').counterUp({
+			delay: 10,
+			time: 1000
+			});
+			
+		/* ==== owlCarousel ===== */
+	$('#logocarousel').owlCarousel({
+   		items:5,
+		loop:true,
+		margin:4,
+		autoplay:true,
+		autoplayTimeout:1500,
+		responsiveClass:true,
+		responsive:{
+			0:{
+			items:2,
+			},
+			576:{
+			items:3,
+			},
+			768:{
+			items:4,
+			},
+			1000:{
+			items:5,
+			},
+			1300:{
+			items:6,
+			dots:true,
+			}
+		}
+	})
